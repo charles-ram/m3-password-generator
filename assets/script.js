@@ -30,6 +30,7 @@ function writePassword() {
   enter = parseInt(prompt("How many characters would you like in your password. Choose any whole number between 8 and 128."));
   if (!enter) {
     alert("You must enter a value.");
+    return writePassword;
   } else if (enter < 8 || enter > 128) {
     enter = parseInt(prompt("You must choose between 8 and 128."));
   } else {
@@ -41,6 +42,7 @@ function writePassword() {
   // If no options are chosen.
     if (!confirmSpecialCharacters && !confirmNumbers && !confirmUppercase && !confirmLowercase) {
     choices = alert("You should probably choose something, just an idea.");
+    return writePassword;
   } 
     // First if statement that takes user input to determine choices.
     // If all choices are confirmed.
