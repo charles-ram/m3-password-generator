@@ -23,7 +23,5 @@ To use the password generator, head to the link provided and make sure that pop-
 ![lowercase](./assets/images/m3-lowercase-prompt.png)
 
 ## Links
-
-Here are the links to the github repository and the active site.
 [GitHub-Repo](https://github.com/charles-ram/m3-password-generator)
 [Active-Site](https://charles-ram.github.io/m3-password-generator/)
